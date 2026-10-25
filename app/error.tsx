@@ -1,0 +1,2 @@
+'use client';
+export default function ErrorPage({reset}:{reset:()=>void}){return <main className="error-page"><h1>We couldn’t load your workspace.</h1><p>Check your connection and confirm the Supabase migration has been applied. Your saved records have not been changed.</p><button className="button primary" onClick={reset}>Try again</button><a className="text-link" href="/login">Return to sign in</a></main>;}
